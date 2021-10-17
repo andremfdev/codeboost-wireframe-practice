@@ -1,6 +1,37 @@
-h1 {
+h1,
+h2,
+h3 {
   font-family: 'Sora', sans-serif;
   font-weight: bold;
-  font-size: 6.4rem;
   line-height: 110%;
+  color: $gray-color-1;
+}
+
+h1 {
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: $primary-color;
+  border-radius: 5px;
+  line-height: 5.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0 6.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border: 1px solid $primary-color;
+  &.outline {
+    background-color: transparent;
+    color: $primary-color;
+  }
 }
