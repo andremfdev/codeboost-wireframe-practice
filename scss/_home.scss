@@ -2,5 +2,39 @@
   padding-top: 8.6rem;
   .container {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text {
+    width: 100%;
+    max-width: 45rem;
+    height: 27.4rem;
+    margin-right: 9.8rem;
+  }
+  .image {
+    width: 100%;
+    max-width: 78rem;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 14.5rem;
+    .img {
+      position: relative;
+      &.one,
+      &.three {
+        position: absolute;
+      }
+      &.one {
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+      &.three {
+        right: 0;
+        bottom: 0;
+      }
+    }
   }
 }
