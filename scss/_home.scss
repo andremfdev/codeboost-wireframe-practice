@@ -9,7 +9,35 @@
     width: 100%;
     max-width: 45rem;
     height: 27.4rem;
-    margin-right: 9.8rem;
+    .avaliable {
+      padding: 0.7rem 2.3rem;
+      background-color: $primary-color-super-light;
+      border-radius: 2rem;
+      font-weight: bold;
+      font-size: 1.4rem;
+      line-height: 110%;
+      color: $primary-color;
+    }
+    h1 {
+      margin-top: 1.9rem;
+    }
+    .btns {
+      margin-top: 3.2rem;
+    }
+  }
+
+  .scroll {
+    display: flex;
+    align-items: center;
+    margin-top: 10.1rem;
+    gap: 1.2rem;
+    span {
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.06em;
+      color: $primary-color-light;
+    }
   }
   .image {
     width: 100%;
@@ -19,17 +47,17 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 14.5rem;
+    margin-right: -130px;
     .img {
       position: relative;
       &.one,
       &.three {
         position: absolute;
+        z-index: 1;
       }
       &.one {
         left: 0;
         bottom: 0;
-        z-index: 1;
       }
       &.three {
         right: 0;
