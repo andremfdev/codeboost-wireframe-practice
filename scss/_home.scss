@@ -74,3 +74,28 @@
     }
   }
 }
+
+.s-services {
+  padding-top: 14.5rem;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title {
+    margin-bottom: 9rem;
+    h2 {
+      text-align: center;
+      margin-bottom: 1.6rem;
+    }
+    p {
+      text-align: center;
+      font-size: 1.7rem;
+      line-height: 110%;
+      color: $text-color2;
+    }
+  }
+  .infos {
+    display: flex;
+  }
+}
