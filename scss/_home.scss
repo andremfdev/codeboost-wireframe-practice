@@ -73,6 +73,18 @@
       }
     }
   }
+  @include responsive(1200px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .text {
+      .avaliable {
+        text-align: center;
+      }
+    }
+  }
 }
 
 .s-services {
