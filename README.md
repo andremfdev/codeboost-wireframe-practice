@@ -1,1 +1,1 @@
-<h4>🚧 Projeto README • Em construção 🚧</h4>
+<h4 align="center">🚧 Projeto README • Em construção 🚧</h4>
