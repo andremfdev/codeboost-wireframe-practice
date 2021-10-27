@@ -80,9 +80,17 @@
       align-items: center;
     }
     .text {
-      .avaliable {
-        text-align: center;
+      text-align: center;
+      margin-bottom: 16rem;
+      .btns {
+        margin-bottom: 5rem;
       }
+      .scroll {
+        justify-content: center;
+      }
+    }
+    .image {
+      margin-left: -10rem;
     }
   }
 }
