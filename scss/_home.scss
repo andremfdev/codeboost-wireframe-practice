@@ -75,6 +75,7 @@
     }
   }
   @include responsive(1200px) {
+    padding-bottom: 8.6rem;
     .container {
       display: flex;
       flex-direction: column;
@@ -151,6 +152,15 @@
       gap: 1rem 10%;
       .info-service {
         width: 45%;
+      }
+    }
+  }
+
+  @include responsive(600px) {
+    .infos {
+      flex-direction: column;
+      .info-service {
+        width: 100%;
       }
     }
   }
