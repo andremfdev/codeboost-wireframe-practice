@@ -43,4 +43,24 @@ header {
       }
     }
   }
+  .menu-mobile {
+    display: none;
+  }
+  @include responsive(768px) {
+    ul,
+    li {
+      display: none;
+    }
+    .menu-mobile {
+      display: block;
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      letter-spacing: 0.06em;
+      color: $gray-color-1;
+    }
+    .btns {
+      display: block;
+    }
+  }
 }
