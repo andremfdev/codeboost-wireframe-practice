@@ -155,3 +155,58 @@
     }
   }
 }
+
+.s-plan {
+  background-color: $gray-color-3;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  .container {
+    .title {
+      margin-bottom: 8.7rem;
+      p {
+        text-align: center;
+      }
+    }
+    .all-cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card {
+      width: 34.5rem;
+      height: 42.8rem;
+      padding: 3.5rem 3.2rem;
+      border: 1px solid $text-color-light;
+      border-radius: 5px;
+      .text {
+        padding-bottom: 2.8rem;
+        border-bottom: 1px solid $primary-color-super-light;
+        p {
+          font-family: 'Inter', sans-serif;
+          font-weight: 600;
+          font-size: 1.7rem;
+          line-height: 110%;
+          color: $primary-color;
+          padding-top: 0.8rem;
+        }
+      }
+      .details-card {
+        ul {
+          -moz-column-count: 2;
+          -moz-column-gap: 20px;
+          -webkit-column-count: 2;
+          -webkit-column-gap: 20px;
+          column-count: 2;
+          column-gap: 20px;
+        }
+      }
+    }
+    .one {
+      .text {
+        p {
+          color: $text-color2;
+        }
+      }
+    }
+  }
+}
