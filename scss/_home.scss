@@ -301,5 +301,21 @@
         }
       }
     }
+    .main-second {
+      .time {
+        h2 {
+          margin-bottom: 1.6rem;
+        }
+      }
+      .img-time {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .dev,
+        .designer {
+          background-color: $gray-color-1;
+        }
+      }
+    }
   }
 }
