@@ -448,6 +448,9 @@ footer {
         font-size: 1.5rem;
         line-height: 135%;
         color: $text-color-light;
+        a {
+          color: $white;
+        }
       }
       .social-media {
         gap: 2.4rem;
