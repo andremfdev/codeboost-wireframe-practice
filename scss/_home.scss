@@ -438,5 +438,21 @@ footer {
         }
       }
     }
+    .copy {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3.4rem 0px;
+      p {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        line-height: 135%;
+        color: $text-color-light;
+      }
+      .social-media {
+        gap: 2.4rem;
+        display: flex;
+      }
+    }
   }
 }
