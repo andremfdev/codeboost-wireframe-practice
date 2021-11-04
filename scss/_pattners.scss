@@ -23,9 +23,11 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 145px;
+  margin-bottom: 14.5rem;
+  width: 100%;
   h2 {
-    max-width: 100%;
+    width: 100%;
+    text-align: center;
   }
   p {
     margin-top: 1.6rem;
@@ -34,6 +36,8 @@ h3 {
     color: $text-color2;
     width: 68.4rem;
     line-height: 170%;
+    width: 100%;
+    text-align: center;
   }
 }
 
