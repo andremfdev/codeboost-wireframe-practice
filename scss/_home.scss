@@ -95,6 +95,20 @@
       margin-left: -10rem;
     }
   }
+  @include responsive(991px) {
+    .three {
+      width: 35%;
+      margin-right: 30px;
+    }
+    .one {
+      width: 30%;
+      margin-left: 30px;
+    }
+    .two {
+      margin-top: auto;
+      width: 60%;
+    }
+  }
 }
 
 .s-services {
