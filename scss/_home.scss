@@ -92,7 +92,7 @@
       }
     }
     .image {
-      margin-left: -10rem;
+      margin-left: -13rem;
     }
   }
   @include responsive(991px) {
@@ -107,6 +107,23 @@
     .two {
       margin-top: auto;
       width: 60%;
+    }
+  }
+  @include responsive(600px) {
+    .text {
+      margin-bottom: 2rem;
+    }
+    .two {
+      margin-top: 0px;
+    }
+    .three,
+    .one {
+      margin-bottom: 8.55rem;
+    }
+  }
+  @include responsive(480px) {
+    section {
+      padding-bottom: 2rem;
     }
   }
 }
@@ -166,6 +183,14 @@
       .info-service {
         width: 100%;
       }
+    }
+  }
+  @include responsive(480px) {
+    .title {
+      margin-bottom: 6rem;
+    }
+    .infos {
+      margin-bottom: 2rem;
     }
   }
 }
