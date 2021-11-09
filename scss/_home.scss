@@ -104,17 +104,26 @@
     }
   }
   @include responsive(991px) {
-    .three {
-      width: 35%;
-      margin-right: 30px;
-    }
-    .one {
-      width: 30%;
-      margin-left: 30px;
-    }
-    .two {
-      margin-top: auto;
-      width: 60%;
+    .container {
+      .text {
+        margin-bottom: 7rem;
+      }
+      .three {
+        width: 100%;
+        max-width: 40%;
+        margin-bottom: 0rem;
+        margin-right: 3rem;
+      }
+      .one {
+        width: 100%;
+        max-width: 30%;
+        margin-bottom: 0rem;
+        margin-left: 3rem;
+      }
+      .two {
+        margin-top: auto;
+        width: 60%;
+      }
     }
   }
   @include responsive(600px) {
@@ -170,18 +179,24 @@
   }
 
   @include responsive(1200px) {
-    .infos {
-      gap: 2rem 5%;
-      .info-service {
-        width: 30%;
+    .container {
+      .infos {
+        gap: 2rem 5%;
+        align-items: center;
+        justify-content: center;
+        .info-service {
+          width: 30%;
+        }
       }
     }
   }
   @include responsive(991px) {
-    .infos {
-      gap: 1rem 10%;
-      .info-service {
-        width: 45%;
+    .container {
+      .infos {
+        gap: 1rem 10%;
+        .info-service {
+          width: 45%;
+        }
       }
     }
   }
