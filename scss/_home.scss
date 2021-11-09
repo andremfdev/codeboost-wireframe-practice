@@ -83,7 +83,7 @@
     }
     .text {
       text-align: center;
-      margin-bottom: 10rem;
+      margin-bottom: 16rem;
       .btns {
         margin-bottom: 3rem;
       }
@@ -92,7 +92,15 @@
       }
     }
     .image {
-      margin-left: -13rem;
+      margin-left: -14rem;
+      .one {
+        margin-bottom: -3.3rem;
+        margin-left: -5rem;
+      }
+      .three {
+        margin-bottom: -3.3rem;
+        margin-right: -6rem;
+      }
     }
   }
   @include responsive(991px) {
@@ -142,7 +150,8 @@
     gap: 5.8rem;
     margin-bottom: 9rem;
     .info-service {
-      width: 261px;
+      width: 100%;
+      max-width: 261px;
       height: 112px;
       display: flex;
       gap: 1.6rem;
@@ -213,7 +222,8 @@
       justify-content: space-between;
     }
     .card {
-      width: 34.5rem;
+      width: 100%;
+      max-width: 34.5rem;
       height: 42.8rem;
       padding: 3.5rem 3.2rem;
       border: 1px solid $text-color-light;
@@ -306,7 +316,8 @@
 
       .img-news {
         background-color: $gray-color-1;
-        width: 520px;
+        width: 100%;
+        max-width: 520px;
         height: 300px;
         display: flex;
         align-items: center;
@@ -361,7 +372,8 @@
         }
         .news-ceo {
           background-color: $gray-color-1;
-          width: 586px;
+          width: 100%;
+          max-width: 586px;
           height: 380px;
           display: flex;
           flex-direction: column;
@@ -445,7 +457,8 @@ footer {
       border-bottom: 1px solid rgba(181, 189, 207, 0.07);
     }
     .area-left {
-      width: 22.1rem;
+      width: 100%;
+      max-width: 22.1rem;
       align-items: flex-start;
       img {
         margin-bottom: 3.2rem;
