@@ -13,6 +13,9 @@ html {
   @include responsive(1200px) {
     font-size: 55%;
   }
+  @include responsive(480px) {
+    font-size: 50%;
+  }
 }
 
 img {

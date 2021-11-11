@@ -106,7 +106,10 @@
   @include responsive(991px) {
     .container {
       .text {
-        margin-bottom: 7rem;
+        margin-bottom: 11rem;
+      }
+      .image {
+        height: auto;
       }
       .three {
         width: 100%;
@@ -141,6 +144,17 @@
   @include responsive(480px) {
     section {
       padding-bottom: 2rem;
+    }
+    .container .text {
+      margin-bottom: 18rem;
+    }
+    .image {
+      // margin-top: -9rem;
+      margin-left: -17rem;
+    }
+    .btns {
+      flex-direction: column;
+      gap: 2rem;
     }
   }
 }
@@ -215,6 +229,14 @@
     }
     .infos {
       margin-bottom: 2rem;
+    }
+    .container {
+      .infos {
+        gap: 1rem;
+        .info-service {
+          width: 70%;
+        }
+      }
     }
   }
 }
@@ -304,6 +326,12 @@
           color: $text-color2;
         }
       }
+    }
+  }
+  @include responsive(991px) {
+    .all-cards {
+      flex-direction: column;
+      gap: 3rem;
     }
   }
 }
