@@ -494,6 +494,62 @@
       }
     }
   }
+  @include responsive(1200px) {
+    .container {
+      .news-info {
+        flex-direction: column;
+        gap: 2rem;
+        .text-news {
+          align-items: center;
+          text-align: center;
+          h2 {
+            max-width: 100%;
+            height: auto;
+          }
+          p {
+            text-align: justify;
+          }
+        }
+      }
+
+      .title {
+        margin-bottom: 7rem;
+      }
+    }
+  }
+  @include responsive(991px) {
+    .container {
+      .title {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
+  @include responsive(600px) {
+    .container {
+      .title .btns {
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .title h2 {
+        font-size: 3.6rem;
+        width: 100%;
+      }
+    }
+  }
+  @include responsive(480px) {
+    .container {
+      .title {
+        h2 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
 }
 
 footer {
