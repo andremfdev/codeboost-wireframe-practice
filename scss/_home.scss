@@ -94,11 +94,11 @@
     .image {
       margin-left: -14rem;
       .one {
-        margin-bottom: -3.3rem;
+        margin-bottom: -3.4rem;
         margin-left: -5rem;
       }
       .three {
-        margin-bottom: -3.3rem;
+        margin-bottom: -3.4rem;
         margin-right: -6rem;
       }
     }
@@ -147,14 +147,20 @@
     }
     .container .text {
       margin-bottom: 18rem;
+      h1 {
+        font-size: 5.8rem;
+      }
+      .btns {
+        flex-direction: column;
+        gap: 2rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
     .image {
       // margin-top: -9rem;
       margin-left: -17rem;
-    }
-    .btns {
-      flex-direction: column;
-      gap: 2rem;
     }
   }
 }
