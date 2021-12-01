@@ -33,6 +33,13 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 9.9rem;
+      .btn-primary {
+        transition: all 0.3s;
+      }
+      .btn-primary:hover {
+        background-color: #ffffff;
+        color: #6e38f7;
+      }
     }
   }
 
@@ -515,6 +522,11 @@
       .title {
         margin-bottom: 7rem;
       }
+      .main-second .img-time {
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+      }
     }
   }
   @include responsive(991px) {
@@ -528,6 +540,9 @@
   }
   @include responsive(600px) {
     .container {
+      .main-second .time {
+        margin-bottom: 5rem;
+      }
       .title .btns {
         flex-direction: column;
         gap: 1.5rem;
@@ -538,6 +553,17 @@
       .title h2 {
         font-size: 3.6rem;
         width: 100%;
+      }
+      .main-second .img-time {
+        .news-ceo {
+          width: auto;
+          .ceo p {
+            width: auto;
+          }
+        }
+      }
+      .news-info .text-news {
+        width: 80%;
       }
     }
   }
