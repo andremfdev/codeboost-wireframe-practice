@@ -569,10 +569,11 @@
   }
   @include responsive(480px) {
     .container {
-      .title {
-        h2 {
-          font-size: 3rem;
-        }
+      .title h2 {
+        font-size: 3rem;
+      }
+      .main-second .img-time {
+        margin-bottom: 7rem;
       }
     }
   }
