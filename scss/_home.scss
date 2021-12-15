@@ -37,8 +37,14 @@
         transition: all 0.3s;
       }
       .btn-primary:hover {
-        background-color: rgba(110, 56, 247, 0.9);
+        background-color: rgba(110, 56, 247, 0.8);
+        border: 1px solid rgba(110, 56, 247, 0.8);
         color: #fff;
+      }
+      .outline:hover {
+        background-color: transparent;
+        border: 1px solid rgba(110, 56, 247, 0.8);
+        color: rgba(110, 56, 247, 0.8);
       }
     }
   }
