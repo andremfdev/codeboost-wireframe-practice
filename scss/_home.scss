@@ -237,6 +237,7 @@
   @include responsive(600px) {
     .infos {
       flex-direction: column;
+      margin-bottom: 3rem;
       .info-service {
         width: 100%;
       }
@@ -351,6 +352,14 @@
     .all-cards {
       flex-direction: column;
       gap: 3rem;
+    }
+  }
+  @include responsive(600px) {
+    padding-top: 4rem;
+    .container {
+      .title {
+        margin-bottom: 6rem;
+      }
     }
   }
 }
