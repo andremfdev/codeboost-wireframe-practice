@@ -28,6 +28,10 @@ header {
             line-height: 1.5rem;
             letter-spacing: 0.06em;
             color: $gray-color-1;
+            transition: all 0.3s;
+            &:hover {
+              color: $gray-color-2;
+            }
           }
         }
       }
@@ -40,6 +44,10 @@ header {
           line-height: 1.5rem;
           letter-spacing: 0.06em;
           color: $primary-color-light;
+          transition: all 0.3s;
+          &:hover {
+            color: $primary-color;
+          }
         }
       }
     }
