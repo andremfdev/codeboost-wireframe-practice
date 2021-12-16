@@ -235,6 +235,9 @@
   }
 
   @include responsive(600px) {
+    .title {
+      margin-bottom: 5rem;
+    }
     .infos {
       flex-direction: column;
       margin-bottom: 3rem;
@@ -367,6 +370,7 @@
   }
   @include responsive(600px) {
     padding-top: 4rem;
+    padding-bottom: 4rem;
     .container {
       .title {
         margin-bottom: 6rem;
@@ -575,9 +579,19 @@
         margin-right: auto;
         margin-left: auto;
       }
+      .news-info {
+        margin-bottom: 8.5rem;
+      }
+      .main-second .time {
+        margin-bottom: 6rem;
+      }
+      .main-second .img-time {
+        margin-bottom: 6rem;
+      }
     }
   }
   @include responsive(600px) {
+    padding-top: 5rem;
     .container {
       .main-second .time {
         margin-bottom: 5rem;
@@ -608,6 +622,9 @@
   }
   @include responsive(480px) {
     .container {
+      .news-info {
+        margin-bottom: 5rem;
+      }
       .title h2 {
         font-size: 3rem;
       }
